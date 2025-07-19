@@ -5,6 +5,7 @@ function playMusic() {
 }
 window.addEventListener('DOMContentLoaded', function() {
   playMusic();
+  document.getElementById("name").innerText = "ACA"; // 👈 tambahkan di sini
 });
 document.body.addEventListener('click', playMusic, { once: true });
 const content = document.getElementById('content');
